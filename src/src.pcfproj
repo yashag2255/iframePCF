@@ -9,7 +9,7 @@
   
   <PropertyGroup>
     <Name>src</Name>
-    <ProjectGuid>b151a421-eadf-4adb-9b52-e8565d1bed9c</ProjectGuid>
+    <ProjectGuid>0b759fe8-a720-4165-83e8-0171c15c2294</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
   </PropertyGroup>
 

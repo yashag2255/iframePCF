@@ -1,7 +1,8 @@
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
 
-export class pcfiframe implements ComponentFramework.StandardControl<IInputs, IOutputs> {
-private iframeelem:HTMLIFrameElement;
+export class IframePCF implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+	private iframeelem:HTMLIFrameElement;
+
 	/**
 	 * Empty constructor.
 	 */
@@ -42,6 +43,7 @@ private iframeelem:HTMLIFrameElement;
 	 */
 	public updateView(context: ComponentFramework.Context<IInputs>): void
 	{
+		// Add code to update control view
 		// Add code to update control view
 		if( context.parameters.src.raw)
 		{
