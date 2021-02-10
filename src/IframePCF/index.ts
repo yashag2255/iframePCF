@@ -29,9 +29,14 @@ export class IframePCF implements ComponentFramework.StandardControl<IInputs, IO
 		this.iframeelem.src = context.parameters.src.raw
 		};
 		
-		this.iframeelem.width = "500";
-		this.iframeelem.height ="700";
+		this.iframeelem.width = "100%";
+		this.iframeelem.height ="100%";		
 		this.iframeelem.frameBorder = "0";
+		this.iframeelem.style.position = "fixed";
+		this.iframeelem.style.top = "0";
+		this.iframeelem.style.left = "0";
+		this.iframeelem.style.right = "0";
+		this.iframeelem.style.bottom = "0";
 
 		container.appendChild(this.iframeelem);
 	}
@@ -50,9 +55,14 @@ export class IframePCF implements ComponentFramework.StandardControl<IInputs, IO
 		this.iframeelem.src = context.parameters.src.raw
 		};
 		
-		this.iframeelem.width = "500";
-		this.iframeelem.height ="700";		
+		this.iframeelem.width = "100%";
+		this.iframeelem.height ="100%";		
 		this.iframeelem.frameBorder = "0";
+		this.iframeelem.style.position = "fixed";
+		this.iframeelem.style.top = "0";
+		this.iframeelem.style.left = "0";
+		this.iframeelem.style.right = "0";
+		this.iframeelem.style.bottom = "0";
 	}
 
 	/** 
