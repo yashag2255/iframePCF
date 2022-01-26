@@ -30,7 +30,7 @@ export class IframePCF implements ComponentFramework.StandardControl<IInputs, IO
 		};
 		
 		this.iframeelem.width = "500";
-		this.iframeelem.height ="700";
+		this.iframeelem.height ="768";
 		this.iframeelem.frameBorder = "0";
 
 		container.appendChild(this.iframeelem);
@@ -51,7 +51,7 @@ export class IframePCF implements ComponentFramework.StandardControl<IInputs, IO
 		};
 		
 		this.iframeelem.width = "500";
-		this.iframeelem.height ="700";		
+		this.iframeelem.height ="768";		
 		this.iframeelem.frameBorder = "0";
 	}
 
